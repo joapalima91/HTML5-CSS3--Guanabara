@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+           box-shadow: 2px 3px 7px 1px rgba(0, 0, 0, 0.332);
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav >a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(124, 124, 124);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer p{
+            margin: 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>D'Garage</h1>
+        <nav>
+            <a href="#">Quem somos</a>
+            <a href="#">Nossos Valores</a>
+            <a href="#">Serviços</a>
+            <a href="#">Produtos a venda</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+            <h2>Estética automotiva</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius ex commodi, beatae id praesentium impedit hic. Possimus totam dicta dolores, atque magni commodi rem, ipsa, vel ab maxime illum?</p>
+            <aside>
+                <p>Escrito por Jajão</p>
+            </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre Lavagem Técnica</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa non tenetur ipsam, minima voluptates dolore inventore voluptate perferendis nihil voluptatibus fugiat ullam, dolorum necessitatibus tempore rem laudantium, facere cupiditate ad. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi consequatur cumque itaque nobis, facilis libero eum blanditiis. Facilis est, excepturi enim optio architecto, assumenda explicabo incidunt odio nam neque earum.</p>
+                <aside>
+                    <p>Artigo escrito por Daniel Ferreira de Medeiros</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por João Lima</p>
+    </footer>
+    
+</body>
+</html>
