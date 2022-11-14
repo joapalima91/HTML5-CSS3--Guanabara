@@ -8,14 +8,14 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off"> <!--autocompletação desativado-->
+    <form method="post" action="cadastro.php" autocomplete="off"> <!--autocompletação desativado-->
         <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome">
+            <label for="inome" >Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="Nome">
         </p>
         <p>
             <label for="isobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="isobrenome">
+            <input type="text" name="sobrenome" id="isobrenome" placeholder="Sobrenome">
         </p>
         <input type="submit" value="Enviar">
     </form>
